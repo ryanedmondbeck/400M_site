@@ -127,3 +127,5 @@ class Node {
     ellipse(this.x, this.y, this.r);
   }
 }
+// script hides content until page loads
+$(window).load(function() {  document.getElementById("hideAll").style.display = "none"; });

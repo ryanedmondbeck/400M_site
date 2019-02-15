@@ -6,7 +6,7 @@ function setup() {
   
   canvas = createCanvas(window.innerWidth, window.innerHeight);
   background(0);
-  for (let i = 0; i < 300; i++) {
+  for (let i = 0; i < 200; i++) {
     let x = random(width);
     let y = random(height);
     let r = random(0);
