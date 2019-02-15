@@ -51,15 +51,15 @@ class Node {
     this.y = y;
     this.r = r;
     this.brightness = 0;
-    this.yspeed = random(-5, 5);
-    this.xspeed = random(-5, 5);
+    this.yspeed = random(-7, 7);
+    this.xspeed = random(-7, 7);
   }
 
   draw_edge(other, color) {
     bezier(this.x, this.y + 100, this.x -100, this.y -50, this.x +100, this.y,other.x, other.y);
 
 
-    stroke(244, 96, 22, 5);
+    stroke(random(200,250), random(90, 96), random(18, 24), 15);
     strokeWeight(random(4, 10));
   }
 
