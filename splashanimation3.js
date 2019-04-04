@@ -1,6 +1,6 @@
 let nodes = [];
 let dUp = true;
-let bg_col = (0);
+// let bg_col = (255);
 
 function setup() {
   
@@ -17,7 +17,7 @@ function setup() {
 
 function draw() {
 
-  bg_col = map(mouseY, 0, width, 0, 50)
+  // bg_col = map(mouseY, 0, width, 0, 50)
   // background(bg_col);
   // col = map(mouseX, 0, width, 0, 100);
   col = 50;
@@ -59,7 +59,9 @@ class Node {
     bezier(this.x, this.y + 100, this.x -100, this.y -50, this.x +100, this.y,other.x, other.y);
 
 
-    stroke(random(200,250), random(90, 96), random(18, 24), 15);
+    // stroke(random(200,250), random(90, 96), random(18, 24), 15);
+    stroke(random(242,254), random(193, 200), random(147, 160), 15);
+    // stroke(242,193,147, 15);
     strokeWeight(random(4, 10));
   }
 

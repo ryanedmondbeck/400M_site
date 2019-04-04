@@ -1,0 +1,25 @@
+/*this imports .ttf font as separate file*/
+@font-face {
+	font-family: 'Induction';
+	src: url(fonts/Qaddal-Personal-Use.otf);
+}
+/*------------------------------------------*/
+body {
+ 	background-color: black;
+ 	overflow: scroll;
+	scroll-snap-type: y mandatory;
+ 	scroll-snap-type: mandatory;
+}
+
+h1 {
+	font-family: 'Induction', helvetica;
+	color: red;
+	font-size: 60px;
+}
+audio {
+	display: block;
+	width: 100%;
+}
+.player {
+	padding-left: 60%;
+}
